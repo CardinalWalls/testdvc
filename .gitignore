@@ -1,0 +1,35 @@
+# Ignore DVC files
+.dvc/
+.dvcignore
+
+# Ignore Ml-EM files
+mlem.egg-info/
+
+# Ignore Python environment and build files
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.dll
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyd
+*.swp
+*.bak
+*.class
+*.sage.py
+.venv/
+venv/
+ENV/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore data and model files
+data/
+models/
